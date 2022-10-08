@@ -45,9 +45,9 @@ void app_main() {
   setup();
   int x = 0;
   //string num = x;
-  //int y = sizeof(LEDs);
+  //int y = sizeof(LEDs)/ sizeof(int); // converts the result of binary to decimal
   //printf("%c", y);
-  //for (int x = 0; x < sizeof(LEDs); x++)
+  //for (int x = 0; x < y; x++)
   while (true)
   {
     //string num = x;
